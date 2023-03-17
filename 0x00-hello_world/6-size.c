@@ -1,12 +1,10 @@
-#include <stdio.h> 
+#include <stdio.h>
 
 /**
- * main is always the Entry Point
+ * main - Entry point
  *
- * Return: Always 0 (This means Success)
- *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int a;
