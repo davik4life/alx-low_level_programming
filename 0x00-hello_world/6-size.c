@@ -4,8 +4,11 @@
  * main is always the Entry Point
  *
  * Return: Always 0 (This means Success)
+ *
  */
-int main(void){
+
+int main(void)
+{
 	int a;
 	long int b;
 	long long int c;
