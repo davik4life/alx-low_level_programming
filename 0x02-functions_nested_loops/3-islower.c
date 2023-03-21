@@ -3,7 +3,7 @@
 /**
  * _islower - Checks for lowercase Character.
  *
- * int c - This should be computed using ASCII numbers.
+ * @c - This should be computed using ASCII numbers.
  *
  * Return: 0 otherwise.
  *
