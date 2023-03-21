@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * Main - Prints 10 times almphabet in lowercase
@@ -6,6 +6,12 @@
  * Return  0;
  *
  */
+
+int main(void)
+{
+	print_alphabet_x10();
+	return 0;
+}
 
 void print_alphabet_x10(void)
 {
@@ -20,10 +26,3 @@ void print_alphabet_x10(void)
         }
 
 }
-
-int main(void)
-{
-	print_alphabet_x10();
-	return 0;
-}
-
