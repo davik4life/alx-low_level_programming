@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -7,19 +6,14 @@
  * Return: Always 0.
  */
 
-int main()
-{	
-	print_alphabet();
-	return 0;
+void print_alphabet(void)
+{       
+        char i;
+        for(i = 97; i <= 122; i++)
+        {
+                _putchar(i);
+        }
+        _putchar('\n');
+        return;
 }
 
-void print_alphabet(void)
-{
-	char i;
-	for(i = 'a'; i <= 'z'; i++)
-	{
-		putchar(i);
-	}
-	putchar('\n');
-	return;
-}
