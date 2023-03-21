@@ -3,9 +3,9 @@
 /**
  * _islower - Checks for lowercase Character.
  *
- * 'c' - This should be computed using ASCII numbers.
+ * @c: This would be computed using ASCII numbers.
  *
- * Return: 0 otherwise.
+ * Return: 1 if lowercase character, return 0 otherwise.
  *
  */
 
