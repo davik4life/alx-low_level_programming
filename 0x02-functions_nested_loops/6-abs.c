@@ -5,8 +5,7 @@
  *
  * @n: This is the integer to be calculated.
  *
- * Return: Returns the absolute value of the given integer and feeds the value 
- * to the main from where it is been called. 
+ * Return: Provides the absolute value of the given integer.
  *
  */
 
