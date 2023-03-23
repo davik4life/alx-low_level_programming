@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - This calls the function that prints both positive and negative values 
+ * main - This calls the function that prints both positive and negative values
  * Return: 0
 */
 
@@ -14,4 +14,3 @@ int main(void)
 	
 	return (0);
 }
-
