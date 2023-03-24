@@ -2,16 +2,12 @@
 
 /**
  * mul - multiply two integers.
- *
  * @a: This is the first parameter.
  * @b: This is the second parameter.
- *
  * Return: The multiples of two integers.
  */
 
 int mul(int a, int b)
 {
-	int multi = a * b;
-
-	return multi;
+	return (a * b);
 }
