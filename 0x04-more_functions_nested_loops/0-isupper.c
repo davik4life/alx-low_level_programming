@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isdigit - checks if parameter is an uppercase..
+ * _isupper - checks if parameter is an uppercase..
  * @c: This is the input character
  * Return: 1 if true, 0 otherwise..
  */
