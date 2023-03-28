@@ -5,11 +5,12 @@
  * @str: declaration of n and paramters for the function
  * Return: Always 0.
  */
+
 void puts_half(char *str)
 {
 	int c, a;
 	char l;
-
+	
 	for (c = 0; str[c] != 0; c++)
 	{
 	}
