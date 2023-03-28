@@ -2,17 +2,17 @@
 
 /**
  * swap_int - Swaps the values of two integers.
- * @*a: Here's the first pointer variable parameter.
- * @*b: Here's the second pointer variable parameter.
- * @keep: variable declared to temp store value. 
+ * @a: Here's the first pointer variable parameter.
+ * @b: Here's the second pointer variable parameter.
+ * @hold: variable declared to temp store value.
  *
  * Return: 0.
  */
 void swap_int(int *a, int *b)
 {
-	int keep;
+	int hold;
 
-	keep = *a;
+	hold = *a;
 	*a = *b;
-	*b = keep;
-}	
+	*b = hold;
+}
