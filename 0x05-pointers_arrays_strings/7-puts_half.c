@@ -10,7 +10,7 @@ void puts_half(char *str)
 {
 	int c, a;
 	char l;
-	
+
 	for (c = 0; str[c] != 0; c++)
 	{
 	}
@@ -22,7 +22,8 @@ void puts_half(char *str)
 			_putchar(l);
 		}
 
-	}else
+	}
+	else
 	{
 		for ((a = (c - 1) / 2); str[a] != 0; a++)
 		{
