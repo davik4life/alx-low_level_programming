@@ -4,7 +4,6 @@
  * swap_int - Swaps the values of two integers.
  * @a: Here's the first pointer variable parameter.
  * @b: Here's the second pointer variable parameter.
- * @hold: variable declared to temp store value.
  *
  * Return: 0.
  */
